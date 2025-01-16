@@ -1,9 +1,8 @@
 public class Card {
-  int number;
   String mark;
-  String[] marks = {"♥", "♦", "♣", "♠"};
+  int number;
+
   void open() {
-    number = (int)(Math.random() * 13) + 1;
-    mark = marks[(int)(Math.random() * 4)];
+    System.out.println(mark+number);
   }
 }

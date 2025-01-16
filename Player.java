@@ -1,5 +1,7 @@
 public class Player {
-  void draw(Card c) {
-    c.open();
+
+  Card draw(Card[] cards) {
+    int rnd = (int)(Math.random()*cards.length);
+    return cards[rnd];
   }
 }
