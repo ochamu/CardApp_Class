@@ -3,6 +3,6 @@ public class Card {
   int number;
 
   void open() {
-    System.out.println(mark+number);
+    System.out.println("伏せたカードは"+mark+number);
   }
 }
